@@ -7,22 +7,22 @@
 </head>
 <body>
   <script>
+    var dataset = [
+      { "x" : 30, "y" : 50, "r" : 22, "c" : "black" },
+      { "x" : 50, "y" : 150, "r" : 15, "c" : "red" },
+      { "x" : 350, "y" : 70, "r" : 50, "c" : "blue" },
+      { "x" : 110, "y" : 30, "r" : 13, "c" : "yellow" },
+      { "x" : 245, "y" : 100, "r" : 20, "c" : "green" },
+      { "x" : 410, "y" : 150, "r" : 25, "c" : "grey" },
+      { "x" : 300, "y" : 170, "r" : 30, "c" : "brown" },
+      { "x" : 500, "y" : 120, "r" : 40, "c" : "purple" },
+      { "x" : 100, "y" : 100, "r" : 45, "c" : "orange" },
+      { "x" : 550, "y" : 50, "r" : 10, "c" : "pink" }
+    ];
+
     var svg = d3.select("body").append("svg")
       .attr("height", 500)
       .attr("width", 700);
-
-    var dataset = [
-      { "x" : 30, "y" : 50, "r" : 22, "fill" : "black" },
-      { "x" : 50, "y" : 150, "r" : 15, "fill" : "red" },
-      { "x" : 350, "y" : 70, "r" : 50, "fill" : "blue" },
-      { "x" : 110, "y" : 30, "r" : 13, "fill" : "yellow" },
-      { "x" : 245, "y" : 100, "r" : 20, "fill" : "green" },
-      { "x" : 410, "y" : 150, "r" : 25, "fill" : "grey" },
-      { "x" : 300, "y" : 170, "r" : 30, "fill" : "brown" },
-      { "x" : 500, "y" : 120, "r" : 40, "fill" : "purple" },
-      { "x" : 100, "y" : 100, "r" : 45, "fill" : "orange" },
-      { "x" : 550, "y" : 50, "r" : 10, "fill" : "pink" }
-    ];
 
     svg.selectAll("circle")
       .data(dataset)
@@ -38,7 +38,7 @@
         return d.r;
       })
       .attr("fill", function(d){
-        return d.fill;
+        return d.c;
       });
   </script>
 </body>
