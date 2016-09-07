@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>D3.js - 6. Axes</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+  <style>
+    body {
+      background: grey;
+    }
+    svg {
+      background: white;
+    }
+  </style>
+</head>
+<body>
+  <script>
+    var dataset = [
+      { "x" : 30, "y" : 50, "r" : 22, "c" : "black" },
+      { "x" : 50, "y" : 150, "r" : 15, "c" : "red" },
+      { "x" : 350, "y" : 70, "r" : 50, "c" : "blue" },
+      { "x" : 110, "y" : 30, "r" : 13, "c" : "yellow" },
+      { "x" : 245, "y" : 100, "r" : 20, "c" : "green" },
+      { "x" : 410, "y" : 150, "r" : 25, "c" : "grey" },
+      { "x" : 300, "y" : 170, "r" : 30, "c" : "brown" },
+      { "x" : 500, "y" : 120, "r" : 40, "c" : "purple" },
+      { "x" : 100, "y" : 100, "r" : 45, "c" : "orange" },
+      { "x" : 550, "y" : 50, "r" : 10, "c" : "pink" }
+    ];
+
+    var h = 500;
+    var w = 500;
+    var padding = 40;
+
+    var svg = d3.select("body").append("svg")
+      .attr("height", h)
+      .attr("width", w);
+
+    var xScale = d3.scaleLinear()
+      .domain([0, d3.max(dataset, function(d) { return d.x })])
+      .range([padding, w - padding]);
+    var yScale = d3.scaleLinear()
+      .domain([0, d3.max(dataset, function(d) { return d.y })])
+      .range([h - padding, padding]);
+
+    var xAxis = d3.axisBottom().scale(xScale);
+    var yAxis = d3.axisLeft().scale(yScale);
+
+    svg.selectAll("circle")
+      .data(dataset)
+      .enter()
+      .append("circle")
+      .attr("cx", function(d){
+        return xScale(d.x);
+      })
+      .attr("cy", function(d){
+        return yScale(d.y);
+      })
+      .attr("r", function(d){
+        return d.r;
+      })
+      .attr("fill", function(d){
+        return d.c;
+      });
+
+    svg.append("g")
+      .attr("transform", "translate(0," + (h - padding + 5) + ")")
+      .call(xAxis);
+
+    svg.append("g")
+      .attr("transform", "translate(" + (padding - 5) + ",0)")
+      .call(yAxis);
+  </script>
+</body>
+</html>
