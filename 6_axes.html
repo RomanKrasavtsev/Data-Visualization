@@ -43,8 +43,12 @@
       .domain([0, d3.max(dataset, function(d) { return d.y })])
       .range([h - padding, padding]);
 
-    var xAxis = d3.axisBottom().scale(xScale);
-    var yAxis = d3.axisLeft().scale(yScale);
+    var xAxis = d3.axisBottom()
+      .scale(xScale)
+      .ticks(7);
+    var yAxis = d3.axisLeft()
+      .scale(yScale)
+      .ticks(7);
 
     svg.selectAll("circle")
       .data(dataset)
