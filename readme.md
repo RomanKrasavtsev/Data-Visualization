@@ -11,7 +11,7 @@ Easy way to learn D3.js
 ![Third task](https://github.com/RomanKrasavtsev/Data-Visualization/raw/master/images/3_creating_elements_from_data.png)
 
 ## Fourth task
-![Sixth task](https://github.com/RomanKrasavtsev/Data-Visualization/raw/master/images/4_.png)
+![Fourth task](https://github.com/RomanKrasavtsev/Data-Visualization/raw/master/images/4_.png)
 
 ## Fifth task
 ![Fifth task](https://github.com/RomanKrasavtsev/Data-Visualization/raw/master/images/5_scales.gif)
@@ -20,7 +20,7 @@ Easy way to learn D3.js
 ![Sixth task](https://github.com/RomanKrasavtsev/Data-Visualization/raw/master/images/6_axes.png)
 
 ## Seventh task
-![Sixth task](https://github.com/RomanKrasavtsev/Data-Visualization/raw/master/images/7_random.gif)
+![Seventh task](https://github.com/RomanKrasavtsev/Data-Visualization/raw/master/images/7_random.gif)
 
 ## License
 © 2016 Roman Krasavtsev
