@@ -11,7 +11,7 @@ Easy way to learn D3.js
 
 ## Fifth task
 
-## Six task
+## Sixth task
 
 ## Seventh task
 
