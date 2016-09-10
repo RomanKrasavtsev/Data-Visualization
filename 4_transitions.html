@@ -18,20 +18,20 @@
   <script>
     var dataset = [
       { "x" : 30, "y" : 50, "r" : 22, "c" : "black" },
-      { "x" : 50, "y" : 150, "r" : 15, "c" : "red" },
-      { "x" : 350, "y" : 70, "r" : 50, "c" : "blue" },
-      { "x" : 110, "y" : 30, "r" : 13, "c" : "yellow" },
-      { "x" : 245, "y" : 100, "r" : 20, "c" : "green" },
-      { "x" : 410, "y" : 150, "r" : 25, "c" : "grey" },
+      { "x" : 200, "y" : 20, "r" : 15, "c" : "red" },
+      { "x" : 390, "y" : 70, "r" : 50, "c" : "blue" },
+      { "x" : 110, "y" : 330, "r" : 13, "c" : "yellow" },
+      { "x" : 250, "y" : 400, "r" : 20, "c" : "green" },
+      { "x" : 410, "y" : 350, "r" : 25, "c" : "grey" },
       { "x" : 300, "y" : 170, "r" : 30, "c" : "brown" },
-      { "x" : 500, "y" : 120, "r" : 40, "c" : "purple" },
-      { "x" : 100, "y" : 100, "r" : 45, "c" : "orange" },
-      { "x" : 550, "y" : 50, "r" : 10, "c" : "pink" }
+      { "x" : 50, "y" : 420, "r" : 40, "c" : "purple" },
+      { "x" : 100, "y" : 200, "r" : 45, "c" : "orange" },
+      { "x" : 450, "y" : 200, "r" : 10, "c" : "pink" }
     ];
 
     var svg = d3.select("body").append("svg")
       .attr("height", 500)
-      .attr("width", 900);
+      .attr("width", 500);
 
     svg.selectAll("circle")
       .data(dataset)
