@@ -1,4 +1,4 @@
-### Data Visualization
+# Data Visualization
 Easy way to learn D3.js
 
 ## First task
