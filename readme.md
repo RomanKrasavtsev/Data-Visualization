@@ -12,8 +12,10 @@ Easy way to learn D3.js
 ## Fifth task
 
 ## Sixth task
+[Sixth task]()
 
 ## Seventh task
+![Sixth task](https://github.com/RomanKrasavtsev/Data-Visualization/raw/master/images/7_random.gif)
 
 ## License
 © 2016 Roman Krasavtsev
