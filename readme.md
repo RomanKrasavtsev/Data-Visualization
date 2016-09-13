@@ -51,5 +51,10 @@ Easy way to learn D3.js
 
 ![Seventh task](https://github.com/RomanKrasavtsev/Data-Visualization/raw/master/images/7_random.gif)
 
+## The eighth task
+* rect
+
+![Eighth task](https://github.com/RomanKrasavtsev/Data-Visualization/raw/master/images/8_creating_bars.gif)
+
 ## License
 © 2016 Roman Krasavtsev
