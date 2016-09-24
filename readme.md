@@ -53,6 +53,7 @@ Easy way to learn D3.js
 
 ## The eighth task
 * rect
+* classed
 
 ![The eighth task](https://github.com/RomanKrasavtsev/Data-Visualization/raw/master/images/8_creating_bars.gif)
 
