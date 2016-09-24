@@ -69,7 +69,7 @@
       .data(dataset)
       .enter()
       .append("rect")
-      .attr("class", "bar")
+      .classed("bar", true)
       .attr("x", 0)
       .attr("y", function(d, i) {
         return yScale(i);
