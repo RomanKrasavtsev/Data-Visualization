@@ -25,6 +25,9 @@
       background-color: #5cb85c;
       border-color: #4cae4c;
     }
+    .bar {
+      shape-rendering: crispEdges;
+    }
   </style>
 </head>
 <body>
@@ -62,10 +65,11 @@
       .domain([0, dataset.length])
       .range([0, h]);
 
-    svg.selectAll("rect")
+    svg.selectAll(".bar")
       .data(dataset)
       .enter()
       .append("rect")
+      .attr("class", "bar")
       .attr("x", 0)
       .attr("y", function(d, i) {
         return yScale(i);
