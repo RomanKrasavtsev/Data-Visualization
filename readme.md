@@ -53,9 +53,18 @@ Easy way to learn D3.js
 
 ## The eighth task
 * rect
+* attr: x, y, height, width, fill
 * classed
+* css: shape-rendering: crispEdges
 
 ![The eighth task](https://github.com/RomanKrasavtsev/Data-Visualization/raw/master/images/8_creating_bars.gif)
+
+## The ninth task
+* text
+* attr: x, y, dx, dy
+* css: text-anchor: end
+
+![The ninth task](https://github.com/RomanKrasavtsev/Data-Visualization/raw/master/images/9_adding_text.gif)
 
 ## License
 © 2016 Roman Krasavtsev
