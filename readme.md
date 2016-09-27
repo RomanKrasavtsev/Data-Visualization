@@ -1,5 +1,5 @@
 # Data Visualization
-Easy way to learn D3.js
+My way to learn D3.js
 
 ## The first task
 * d3
@@ -65,6 +65,10 @@ Easy way to learn D3.js
 * css: text-anchor: end
 
 ![The ninth task](https://github.com/RomanKrasavtsev/Data-Visualization/raw/master/images/9_adding_text.gif)
+
+## The tenth task
+### Creating an ordinal scale
+![The tenth task](https://github.com/RomanKrasavtsev/Data-Visualization/raw/master/images/10_creating_an_ordinal_scale.gif)
 
 ## License
 © 2016 Roman Krasavtsev
