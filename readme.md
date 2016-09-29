@@ -66,9 +66,23 @@ My way to learn D3.js
 
 ![The ninth task](https://github.com/RomanKrasavtsev/Data-Visualization/raw/master/images/9_adding_text.gif)
 
+# Coming soon
+
 ## The tenth task
 ### Creating an ordinal scale
 ![The tenth task](https://github.com/RomanKrasavtsev/Data-Visualization/raw/master/images/10_creating_an_ordinal_scale.gif)
+
+## Bubble chart
+## Bar chart
+## Column chart
+## Stacked columns chart
+## Column chart with rounded corners (we will use path)
+## Line chart
+## Area chart
+## Combo chart
+## Pie chart
+## Donut Chart
+## Timeline
 
 ## License
 © 2016 Roman Krasavtsev
