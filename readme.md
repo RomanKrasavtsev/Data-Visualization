@@ -1,5 +1,7 @@
 # Data Visualization
-My way to learn D3.js
+My way to learn D3.js v4
+
+In the Internet a lot of information related to D3.js v3. You can find out the difference between v3 and v4: https://github.com/d3/d3/blob/master/CHANGES.md
 
 ## The first task
 * d3
