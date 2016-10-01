@@ -73,6 +73,7 @@ In the Internet a lot of information related to D3.js v3. You can find out the d
 ![The tenth task](https://github.com/RomanKrasavtsev/Data-Visualization/raw/master/images/10_creating_an_ordinal_scale.gif)
 
 ## Coming soon
+- Grid line
 - Bubble chart
 - Bar chart
 - Column chart
